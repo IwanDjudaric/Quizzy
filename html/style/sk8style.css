@@ -1,0 +1,13 @@
+html,
+body {
+    margin: 0;
+    background-color: #54606c;
+}
+#questionimageholder{
+    width: 30vw;
+    height: 75vh;
+    position: relative;
+    top: 10.5vh;
+    left: 5vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
