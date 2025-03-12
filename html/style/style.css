@@ -37,9 +37,9 @@ img {
     background: #000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: transform .2s;
-    
 }
 .choose:hover {
+    position: relative;
     background-color: rgba(240, 248, 255, 0.14);
     zoom: 1.1;
     transform: scale(1.1);
@@ -51,13 +51,12 @@ img {
     margin-top: 5%;
     text-align: center;
 }
-#skateboarding, #sk8 {
+#skateboarding, #sk8, #boxing {
 position: absolute;
 top: 90%;
 left: 8%;
 width: 400px;
 height: 209px;
-
 }
 
 
