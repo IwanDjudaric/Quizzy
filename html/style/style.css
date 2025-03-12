@@ -3,45 +3,64 @@ body {
     margin: 0;
     background-color: #54606c;
 }
-#header {
-    text-align: center;
-    text-decoration: none;
-}
 a {
     color: aliceblue;
  text-decoration: none;
  font-size: 2em;
 }
-#box   {
+p
+ {
+    font-size: 3em;
+  color: white;
+  text-align: center;
+}
+img {
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+#header {
+    text-align: center;
+    text-decoration: none;
+}
+#box {
     display: flex;
     justify-content: space-around;
 }
 .choose {
+    height: 45em;
     width: 25%;
-    height: 40%;
     position: relative;
-    margin-top: 5%;
+    margin-top: 50px;
     opacity: 0.6;
     background: #000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: transform .2s;
+    
 }
 .choose:hover {
     background-color: rgba(240, 248, 255, 0.14);
     zoom: 1.1;
     transform: scale(1.1);
     cursor: pointer;
+    height: 45em;
 }
 #text {
     position: relative;
     margin-top: 5%;
     text-align: center;
 }
-p
- {
-    font-size: 3em;
-  color: white;
-  margin-top: 120%;
-  text-align: center;
+#skateboarding, #sk8 {
+position: absolute;
+top: 90%;
+left: 8%;
+width: 400px;
+height: 209px;
+
 }
+
+
+
+
 
