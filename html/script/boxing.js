@@ -1,6 +1,6 @@
 let questions = [
-    { question: "Wat is de meest voorkomende boksstand?", options: ["Orthodox", "Southpaw", "Square"], correct: "Orthodox", answerType: "multiple" },
-    { question: "Hoeveel ronden heeft een standaard professioneel gevecht?", options: ["10", "12", "15"], correct: "12", answerType: "multiple" },
+    { question: "Wat is de meest voorkomende boksstand?", options: ["Orthodox", "Southpaw", "Square"], correct: "Orthodox", answerType: "multiple", image:" ./style/images/belt.png" },
+    { question: "Hoeveel ronden heeft een standaard professioneel gevecht?", options: ["10", "12", "15"], correct: "12", answerType: "multiple", image:" ./style/images/gloves.png" },
     { question: "Wie wordt beschouwd als de grootste bokser aller tijden?", options: ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather"], correct: "Muhammad Ali", answerType: "multiple" },
     { question: "Wat is de naam van de boksorganisatie bekend als WBC?", options: ["World Boxing Committee", "World Boxing Championship", "World Boxing Council"], correct: "World Boxing Council", answerType: "multiple" },
     { question: "Hoe wordt een rechter directe ook genoemd?", options: ["Hook", "Jab", "Cross"], correct: "Cross", answerType: "multiple" },
