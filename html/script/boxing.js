@@ -1,16 +1,16 @@
 let questions = [
-    { question: "Wat is de meest voorkomende boksstand?", options: ["Orthodox", "Southpaw", "Square"], correct: "Orthodox", answerType: "multiple", image:" ./style/images/" },
-    { question: "Hoeveel ronden heeft een standaard professioneel gevecht?", options: ["10", "12", "15"], correct: "12", answerType: "multiple", image:" ./style/images/" },
-    { question: "Wie wordt beschouwd als de grootste bokser aller tijden?", options: ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather"], correct: "Muhammad Ali", answerType: "multiple" },
-    { question: "Wat is de naam van de boksorganisatie bekend als WBC?", options: ["World Boxing Committee", "World Boxing Championship", "World Boxing Council"], correct: "World Boxing Council", answerType: "multiple" },
-    { question: "Hoe wordt een rechter directe ook genoemd?", options: ["Hook", "Jab", "Cross"], correct: "Cross", answerType: "multiple" },
-    { question: "Wat is de bijnaam van Mike Tyson?", options: ["Iron Mike", "The Greatest", "The Hitman"], correct: "Iron Mike", answerType: "multiple" },
+    { question: "Wat is de meest voorkomende boksstand?", options: ["Orthodox", "Southpaw", "Square"], correct: "Orthodox", answerType: "multiple", image:" ./style/images/boxing/orthodox.jpg" },
+    { question: "Hoeveel ronden heeft een standaard professioneel gevecht?", options: ["10", "12", "15"], correct: "12", answerType: "multiple", image:" ./style/images/boxing/rounds.jpg" },
+    { question: "Wie wordt beschouwd als de grootste bokser aller tijden?", options: ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather"], correct: "Muhammad Ali", answerType: "multiple", image:" ./style/images/boxing/bigthree.png" },
+    { question: "Wat is de naam van de boksorganisatie bekend als WBC?", options: ["World Boxing Committee", "World Boxing Championship", "World Boxing Council"], correct: "World Boxing Council", answerType: "multiple", image:" ./style/images/boxing/wbc.jpg" },
+    { question: "Hoe wordt een rechter directe ook genoemd als je een orthodox stand gebruikt?", options: ["Hook", "Jab", "Cross"], correct: "Cross", answerType: "multiple", image:" ./style/images/boxing/cross.jpg" },
+    { question: "Wat is de bijnaam van Mike Tyson?", options: ["Iron Mike", "The Greatest", "The Hitman"], correct: "Iron Mike", answerType: "multiple", image:" ./style/images/boxing/tyson.jpg" },
     { question: "Welke gewichtsklasse is de zwaarste in het boksen?", options: ["Lichtgewicht", "Middengewicht", "Zwaargewicht"], correct: "Zwaargewicht", answerType: "multiple" },
-    { question: "Welke bokser stond bekend om de uitspraak 'Float like a butterfly, sting like a bee'?", correct: "Muhammad Ali", answerType: "open" },
-    { question: "Wie Wie werd in 1986 de jongste persoon ooit die het WBC zwaargewichtkampioenschap won?", correct: "Mike Tyson", answerType: "open" },
-    { question: "Wie was wereldkampioen zwaargewicht van 1952 tot 1956, toen hij ongeslagen met pensioen ging in 49 gevechten?", correct: "Rocky Marciano", answerType: "open" },
-    { question: "Wie heeft Mike Tyson, Floyd Patterson, and José Torres, gecoached", correct: "Cus D'amato", answerType: "open" },
-    { question: "Wie versloeg Muhammad Ali in 'The Fight of the Century' in 1971?", correct: "Joe Frazier", answerType: "open" }
+    { question: "Welke bokser stond bekend om de uitspraak 'Float like a butterfly, sting like a bee'?", correct: "Muhammad Ali", answerType: "open", image:" ./style/images/boxing/ali.jpg" },
+    { question: " Wie werd in 1986 de jongste persoon ooit die het WBC zwaargewichtkampioenschap won?", correct: "Mike Tyson", answerType: "open", image:" ./style/images/boxing/Champ.jpg" },
+    { question: "Wie was wereldkampioen zwaargewicht van 1952 tot 1956, toen hij ongeslagen met pensioen ging in 49 gevechten?", correct: "Rocky Marciano", answerType: "open", image:" ./style/images/boxing/marciano.jpg" },
+    { question: "Wie heeft Mike Tyson, Floyd Patterson, and José Torres, gecoached", correct: "Cus D'amato", answerType: "open", image:" ./style/images/boxing/cus.jpg" },
+    { question: "Wie versloeg Muhammad Ali in 'The Fight of the Century' in 1971?", correct: "Joe Frazier", answerType: "open", image:" ./style/images/boxing/Down.jpg" },
 
 ];
 
