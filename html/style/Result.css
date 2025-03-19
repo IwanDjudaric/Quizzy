@@ -47,3 +47,11 @@ body {
 .home-button:hover {
     background-color: #6A7385;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: white;
+}

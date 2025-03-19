@@ -78,7 +78,8 @@ function nextQuestion() {
         currentQuestionIndex++;
         loadQuestion();
     } else {
-        document.querySelector(".quiz-box").innerHTML = `<h2>Quiz voltooid!</h2><p>Correcte antwoorden: ${correctAnswers}</p><p>Foute antwoorden: ${wrongAnswers}</p>`;
+        document.querySelector(".quiz-box").innerHTML = `<h2 class="box">Quiz voltooid!</h2><p class="box">Correcte antwoorden: ${correctAnswers}</p><p class="box">Foute antwoorden: ${wrongAnswers}</p>`;
+        document.querySelector(".image-box").style.display = "none";
     }
 }
 
