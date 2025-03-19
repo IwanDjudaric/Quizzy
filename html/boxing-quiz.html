@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing</title>
+    <link rel="stylesheet" href="./style/boxing-quiz.css">
+    <link rel="stylesheet" href="./style/Result.css">
+</head>
+<body>
+      <div class="header">
+        <a href="./index.html">Home</a>
+    </div>
+    <div class="container">
+        <div class="image-box">
+            <p>Afbeelding hier</p>
+        </div>
+        <div class="quiz-box">
+            <h2 id="question">Vraag komt hier</h2>
+            <div id="options"></div>
+            <div class="open-answer" id="open-answer" style="display: none;">
+                <input type="text" id="answer-input" placeholder="Typ je antwoord hier...">
+                <button class="next-button" onclick="checkAnswer()">Volgende</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='./script/boxing.js'></script>
+</html>
