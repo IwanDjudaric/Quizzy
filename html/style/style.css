@@ -16,23 +16,6 @@ a {
     text-align: center;
     margin-top: 50px;
 }
-#text-cnt {
-    display: flex;
-    justify-content: space-around
-}
-
-#header {
-    text-align: center;
-    text-decoration: none;
-}
-
-#box {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end; 
-    margin-top: 80px;
-}
-
 .choose {
     height: 45em;
     width: 25%;
@@ -52,4 +35,29 @@ a {
     cursor: pointer;
 }
 
+#text-cnt {
+    display: flex;
+    justify-content: space-around
+}
 
+#header {
+    text-align: center;
+    text-decoration: none;
+}
+
+#box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+    margin-top: 80px;
+}
+
+#boxing {
+    background-image: url(./images/homepage/gloves.png);
+    background-size: cover;
+}
+
+#skating {
+    background-image: url(./images/homepage/skateboarding.jpeg);
+    background-size: cover;
+}
