@@ -3,18 +3,11 @@ body {
     margin: 0;
     background-color: #54606c;
 }
-#questionimageholder{
-    width: 30vw;
-    height: 75vh;
-    position: relative;
-    top: 10.5vh;
-    left: 5vw;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 #questioncontainer{
-    width: 30vw;
-    height: 70vh;
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(/html/style/images/image3.png);
-    background-size: cover;
+    width: 75vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 12.5vh;
+    border-radius: 10px;
 }
