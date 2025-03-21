@@ -6,6 +6,6 @@ document.getElementById("skating").addEventListener("click", function () {
     window.location.href = "sk8.html";
 });
 
-document.getElementById("third").addEventListener("click", function () {
-    window.location.href = "third.html";
+document.getElementById("surfen").addEventListener("click", function () {
+    window.location.href = "surfen.html";
 });

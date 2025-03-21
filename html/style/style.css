@@ -43,7 +43,7 @@ a {
     margin-top: 80px;
 }
 
-#box .box-row {
+#box #br {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -65,8 +65,8 @@ a {
     background-size: cover;
 }
 
-#third {
-    background-image: url(./images/homepage/third.jpeg); 
+#surfen {
+    background-image: url(./images/homepage/surfing.jpeg); 
     background-size: cover;
 }
 
@@ -77,7 +77,7 @@ a {
         gap: 1em; 
     }
 
-    #box .box-row,
+    #box #br,   
     #box .text-row {
         flex-direction: column; 
         align-items: center;
@@ -98,14 +98,16 @@ a {
 
     #boxing {
         order: 1; 
+        background-image: url(./images/homepage/boxing-phone-bg.jpg);
     }
 
     #skating {
         order: 3; 
     }
 
-    #third {
+    #surfen {
         order: 5;
+        background-image: url(./images/homepage/surfing-phone.png);
     }
 
 
@@ -120,4 +122,35 @@ a {
     #box .text:nth-of-type(3) {
         order: 6;
     }
+}
+
+.info {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.info button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.info button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
 }

@@ -69,3 +69,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+#logo {
+    width: 1vw;
+    height: 15vh;
+    margin-bottom: 20px;
+}
