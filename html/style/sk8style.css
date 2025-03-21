@@ -11,7 +11,6 @@ html, body {
   width: 75vw;
   height: 75vh;
   margin: auto;
-  margin-top: 12vh;
   padding: 10px;
   border-radius: 3px;
   text-align: center;
@@ -19,6 +18,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px ;
 }
 
 #questiontxtcontainer {
@@ -28,7 +28,7 @@ html, body {
 .imageholder {
   width: 400px;
   height: auto;
-  margin: 10px;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -53,7 +53,6 @@ html, body {
 }
 
 #options-ctn {
-  margin-top: -90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,13 +87,28 @@ button:hover {
   width: 75vw;
   height: 75vh;
   margin: auto;
-  margin-top: 12vh;
   padding: 10px;
   border-radius: 3px;
   text-align: center;
   display: none;
 }
 
+
 .hidden {
   display: none;
+}
+.header {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+#logo {
+  width: 1vw;
+  height: 15vh;
+  margin-bottom: 5px;
 }

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../html/style/sk8style.css" />
   </head>
   <body>
+    <div class="header">
+      <a href="./index.html"><img src="./style/images/logo/quizzie_logo.png" alt="logo" id="logo"></a>
+  </div>
     <div id="questioncontainer">
       <div id="questiontxtcontainer"><h2 id="questiontext"></h2></div>
 
@@ -27,9 +30,9 @@
     </div>
 
     <div id="results-container" class="hidden">
-      <div id="score"></div>
-      <div id="correct-answers"></div>
-      <div id="wrong-answers"></div>
+      <div class="box" id="score"></div>
+      <div class="box" id="correct-answers"></div>
+      <div class="box" id="wrong-answers"></div>
       <button onclick="restartQuiz()">Restart Quiz</button>
     </div>
 
