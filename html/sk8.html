@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sk8</title>
+    <title>Skateboarding Quiz</title>
     <link rel="stylesheet" href="../html/style/sk8style.css" />
   </head>
   <body>
@@ -19,7 +19,20 @@
         <br />
         <div class="options" id="option3"></div>
       </div>
+
+      <div id="openended-ctn">
+        <input type="text" id="openended-answer" placeholder="Your Answer" />
+        <button id="submit-answer">Submit Answer</button>
+      </div>
     </div>
+
+    <div id="results-container" class="hidden">
+      <div id="score"></div>
+      <div id="correct-answers"></div>
+      <div id="wrong-answers"></div>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    <script src="../script/sk8script.js"></script>
   </body>
-  <script src="../script/sk8script.js"></script>
 </html>
