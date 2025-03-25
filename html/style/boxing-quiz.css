@@ -77,3 +77,10 @@ body {
     height: 15vh;
     margin-bottom: 20px;
 }
+
+#author {
+    position: relative;
+    font-size: 12px;
+    margin-left: 20rem;
+    margin: 4rem;
+}
