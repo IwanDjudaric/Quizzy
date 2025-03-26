@@ -10,11 +10,11 @@ let questions = [
     { question: "Wat is een leash?", options: ["Een koord om je surfboard aan je enkel vast te maken", "Wax voor grip", "Een tas voor je board"], correct: "Een koord om je surfboard aan je enkel vast te maken", answerType: "multiple", image: "./style/images/surfen/surfleash.jpg" },
     { question: "Wat is een set golfen?", options: ["Een reeks golven die achter elkaar aankomen", "Een enkele grote golf", "Een sterke stroming in de zee"], correct: "Een reeks golven die achter elkaar aankomen", answerType: "multiple", image: "./style/images/surfen/set.jpg" },
     { question: "Wat doet surf wax?", options: ["Zorgt ervoor dat het board beter glijdt", "Zorgt voor extra grip op het board", "Geeft het board kleur"], correct: "Zorgt voor extra grip op het board", answerType: "multiple", image: "./style/images/surfen/surfwax.jpg" },
-    { question: "Wat zijn de belangrijkste veiligheidstips bij surfen?", correct: "", answerType: "open" },
-    { question: "Wat betekent de term ‘barrel’ in surfen?", correct: "", answerType: "open" },
-    { question: "Noem drie verschillende soorten surfboards en hun kenmerken.", correct: "", answerType: "open" },
-    { question: "Hoe herken je een goede surfspot?", correct: "", answerType: "open" },
-    { question: "Wat moet je doen als je in een sterke stroming terechtkomt?", correct: "", answerType: "open" }
+    { question: "Wat zijn de belangrijkste veiligheidstips bij surfen?", correct: "", answerType: "open", image: "./style/images/surfen/safety.jpg" },
+    { question: "Wat betekent de term ‘barrel’ in surfen?", correct: "", answerType: "open", image: "./style/images/surfen/barrel.jpg" },
+    { question: "Noem drie verschillende soorten surfboards en hun kenmerken.", correct: "", answerType: "open", image: "./style/images/surfen/board.jpg" },
+    { question: "Hoe herken je een goede surfspot?", correct: "", answerType: "open", image: "./style/images/surfen/surfspot.jpg" },
+    { question: "Wat moet je doen als je in een sterke stroming terechtkomt?", correct: "", answerType: "open", image: "./style/images/surfen/current.jpg" }
 ];
 
 let currentQuestionIndex = 0;
