@@ -97,7 +97,7 @@ function showResults() {
         <h2 class="box">Quiz voltooid!</h2>
         <p class="box">Correcte antwoorden: ${correctAnswers}</p>
         <p class="box">Foute antwoorden of onbeantwoorde vragen : ${wrongAnswers}</p>
-        <button onclick="restartQuiz()">Opnieuw starten</button>
+        <button onclick="location.reload()">Opnieuw starten</button>
     `;
     
     document.querySelector(".image-box").style.display = 'none';
